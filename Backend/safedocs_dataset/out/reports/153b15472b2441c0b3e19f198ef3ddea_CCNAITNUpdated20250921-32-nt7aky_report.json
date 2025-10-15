@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "file": "153b15472b2441c0b3e19f198ef3ddea_CCNAITNUpdated20250921-32-nt7aky.pdf",
+    "size_bytes": 1139473,
+    "size_human": "1.09 MB",
+    "sha256": "ccdb76bba6e95d00b98f60e5f7a597dda17cc8d8f9090db1c84451cb070377bd",
+    "mime_type": "application/pdf",
+    "scanned_at": "2025-09-23T19:45:48.445989Z"
+  },
+  "verdict": "benign",
+  "risk_score": 0.018,
+  "severity": "low",
+  "model_scores": {
+    "p_dl": 0.0,
+    "p_lgbm": 0.0,
+    "p_tree": 0.091,
+    "p_rules": 0.0
+  },
+  "model_contributions": {
+    "dl": 0.0,
+    "lgbm": 0.0,
+    "tree": 0.0182,
+    "rules": 0.0
+  },
+  "top_features": [],
+  "suspicious_snippets": [],
+  "findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "shap": {
+    "support": true,
+    "positive": [],
+    "negative": []
+  },
+  "explain_text": "The file was classified as **benign** with a risk score of 0.02. Model signals: DL=0.00, LGBM=0.00, Tree=0.09, Rules=0.00. Key reasons: No active threats (No dangerous constructs found).",
+  "confidence": {
+    "level": "high",
+    "spread": 0.091,
+    "why": "Models broadly agree"
+  },
+  "sanitization": {
+    "sanitized_id": "153b15472b2441c0b3e19f198ef3ddea_CCNAITNUpdated20250921-32-nt7aky_clean.pdf",
+    "notes": [
+      "Sanitized with SafeDocs engine"
+    ],
+    "removed": [],
+    "success": true
+  }
+}

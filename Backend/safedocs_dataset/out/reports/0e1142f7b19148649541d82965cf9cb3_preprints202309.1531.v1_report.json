@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "file": "0e1142f7b19148649541d82965cf9cb3_preprints202309.1531.v1.pdf",
+    "size_bytes": 716619,
+    "size_human": "699.82 KB",
+    "sha256": "47edb250e568891bee50a76e491c231c8eb8f5835f7ad85880cb1c1da42b115e",
+    "mime_type": "application/pdf",
+    "scanned_at": "2025-09-23T15:36:09.004082Z"
+  },
+  "verdict": "benign",
+  "risk_score": 0.018,
+  "severity": "low",
+  "model_scores": {
+    "p_dl": 0.0,
+    "p_lgbm": 0.0,
+    "p_tree": 0.091,
+    "p_rules": 0.0
+  },
+  "model_contributions": {
+    "dl": 0.0,
+    "lgbm": 0.0,
+    "tree": 0.0182,
+    "rules": 0.0
+  },
+  "top_features": [],
+  "suspicious_snippets": [
+    {
+      "snippet": "i  S,  et  al.  Detecting  obfuscated   javascripts  using  machine  learning[C]//ICIMP  2016  the  Eleventh  International  Confe",
+      "keyword": "javascript"
+    },
+    {
+      "snippet": "VBA  function  GetObject.  The  method  ShellExecute  is  then  called  to  initiate  a  PowerShell which downloads and execu",
+      "keyword": "shell"
+    },
+    {
+      "snippet": "ute  is  then  called  to  initiate  a  PowerShell which downloads and executes a malicious script. There are a variety of techniq",
+      "keyword": "powershell"
+    },
+    {
+      "snippet": "le*, CreateTextFile*,  Kill*, Binary*   cmd.exe, powershell.exe, vbhide*   StartupPath, Environ*, Windows*,  ShowWindow*, dde*,",
+      "keyword": "cmd.exe"
+    },
+    {
+      "snippet": "on opening or closing  the document     CreateObject*, GetObject, Wscript.Shell*,  Shell.Application*   Shell*, Run*, Exec, Create,",
+      "keyword": "createobject"
+    },
+    {
+      "snippet": "Keywords   Description   Auto_Open*, AutoOpen*,  Document_Open*, Workbook_Open*,  Document_Close*   Procedure names will be e",
+      "keyword": "autoopen"
+    }
+  ],
+  "findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "shap": {
+    "support": true,
+    "positive": [],
+    "negative": []
+  },
+  "explain_text": "The file was classified as **benign** with a risk score of 0.02. Model signals: DL=0.00, LGBM=0.00, Tree=0.09, Rules=0.00. Key reasons: No active threats (No dangerous constructs found).",
+  "confidence": {
+    "level": "high",
+    "spread": 0.091,
+    "why": "Models broadly agree"
+  },
+  "sanitization": {
+    "sanitized_id": "0e1142f7b19148649541d82965cf9cb3_preprints202309.1531.v1_clean.pdf",
+    "notes": [
+      "Sanitized with SafeDocs engine"
+    ],
+    "removed": [],
+    "success": true
+  }
+}

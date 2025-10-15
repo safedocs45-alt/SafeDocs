@@ -1,0 +1,50 @@
+{
+  "file_name": "46ff8f209bb2483abeeff050b0b3d910_Vehicle Insurance Claim App - Project Summary.pdf",
+  "file_type": "pdf",
+  "original": {
+    "file_name": "46ff8f209bb2483abeeff050b0b3d910_Vehicle Insurance Claim App - Project Summary.pdf",
+    "sha256": "1bb9...0b88",
+    "size_bytes": 71741,
+    "pages": 0,
+    "uploaded_ago": "just now"
+  },
+  "security_findings": [
+    {
+      "threat_type": "JavaScript Code",
+      "severity": "high",
+      "indicator": "PDF /JavaScript or /OpenAction detected",
+      "action_taken": "Removed"
+    }
+  ],
+  "scores": {
+    "probability": 0.2,
+    "threat_score_10": 2.0,
+    "severity": "low",
+    "signals": {
+      "dl": 0.3767,
+      "lgbm": 0.0,
+      "tree": 0.0906,
+      "rules": 0.5
+    }
+  },
+  "sanitization": {
+    "status": "Clean",
+    "sanitized_file_name": "46ff8f209bb2483abeeff050b0b3d910_Vehicle Insurance Claim App - Project Summary_clean.pdf",
+    "sanitized_url": "/sanitized/46ff8f209bb2483abeeff050b0b3d910_Vehicle Insurance Claim App - Project Summary_clean.pdf",
+    "sha256": "4d58...e673",
+    "size_bytes": 71438,
+    "pages": 0,
+    "notes": [
+      "All malicious content removed",
+      "Document integrity maintained",
+      "Safe for sharing and opening"
+    ],
+    "safety_score_10": 9.4
+  },
+  "metadata": {
+    "mime": "application/pdf",
+    "pages": 0,
+    "pdf_has_javascript": true
+  },
+  "error": null
+}

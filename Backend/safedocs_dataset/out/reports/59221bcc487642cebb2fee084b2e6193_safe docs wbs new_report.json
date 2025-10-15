@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "file": "59221bcc487642cebb2fee084b2e6193_safe docs wbs new.xlsx",
+    "size_bytes": 11881,
+    "size_human": "11.60 KB",
+    "sha256": "c4271ba9bab8582d2b4f435deac9532c362b872a5834e32053610acb9a60e5be",
+    "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "scanned_at": "2025-09-23T13:46:14.841988Z"
+  },
+  "verdict": "benign",
+  "risk_score": 0.018,
+  "severity": "low",
+  "model_scores": {
+    "p_dl": 0.0,
+    "p_lgbm": 0.0,
+    "p_tree": 0.091,
+    "p_rules": 0.0
+  },
+  "model_contributions": {
+    "dl": 0.0,
+    "lgbm": 0.0,
+    "tree": 0.0182,
+    "rules": 0.0
+  },
+  "top_features": [],
+  "suspicious_snippets": [],
+  "findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "shap": {
+    "support": true,
+    "positive": [],
+    "negative": []
+  },
+  "explain_text": "The file was classified as **benign** with a risk score of 0.02. Model signals: DL=0.00, LGBM=0.00, Tree=0.09, Rules=0.00. Key reasons: No active threats (No dangerous constructs found).",
+  "confidence": {
+    "level": "high",
+    "spread": 0.091,
+    "why": "Models broadly agree"
+  },
+  "sanitization": {
+    "sanitized_id": "59221bcc487642cebb2fee084b2e6193_safe docs wbs new_clean.xlsx",
+    "notes": [
+      "Sanitized with SafeDocs engine"
+    ],
+    "removed": [],
+    "success": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "file": "0395beb2a4e24adf893dbb86c4e47287_Vehicle Insurance Claim App - Project Summary.pdf",
+    "size_bytes": 71741,
+    "size_human": "70.06 KB",
+    "sha256": "1bb901f0553268fd92ce23f76432058c34dbacfb78a67ce9d8a795a500eb0b88",
+    "mime_type": "application/pdf",
+    "scanned_at": "2025-09-23T11:49:34.303934Z"
+  },
+  "verdict": "benign",
+  "risk_score": 0.018,
+  "severity": "low",
+  "model_scores": {
+    "p_dl": 0.0,
+    "p_lgbm": 0.0,
+    "p_tree": 0.091,
+    "p_rules": 0.0
+  },
+  "model_contributions": {
+    "dl": 0.0,
+    "lgbm": 0.0,
+    "tree": 0.0182,
+    "rules": 0.0
+  },
+  "top_features": [],
+  "suspicious_snippets": [],
+  "findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "sanitization": {
+    "sanitized_id": "0395beb2a4e24adf893dbb86c4e47287_Vehicle Insurance Claim App - Project Summary_clean.pdf",
+    "notes": [
+      "Sanitized with SafeDocs engine"
+    ],
+    "success": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "file_name": "de5f596b8ee74477ab7ea58e534632f6_Doc1.docx",
+  "file_type": "ooxml",
+  "original": {
+    "file_name": "de5f596b8ee74477ab7ea58e534632f6_Doc1.docx",
+    "sha256": "a4e5...6f1a",
+    "size_bytes": 3892906,
+    "pages": 0,
+    "uploaded_ago": "just now"
+  },
+  "security_findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "scores": {
+    "probability": 0.15,
+    "threat_score_10": 1.5,
+    "severity": "low",
+    "signals": {
+      "dl": 0.3767,
+      "lgbm": 0.0,
+      "tree": 0.0906,
+      "rules": 0.0
+    }
+  },
+  "sanitization": {
+    "status": "Clean",
+    "sanitized_file_name": "de5f596b8ee74477ab7ea58e534632f6_Doc1_clean.docx",
+    "sanitized_url": "/sanitized/de5f596b8ee74477ab7ea58e534632f6_Doc1_clean.docx",
+    "sha256": "3129...3bf1",
+    "size_bytes": 3731097,
+    "pages": 0,
+    "notes": [
+      "All malicious content removed",
+      "Document integrity maintained",
+      "Safe for sharing and opening"
+    ],
+    "safety_score_10": 9.6
+  },
+  "metadata": {
+    "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "pages": 0,
+    "has_vba_project": false,
+    "embedded_ole_count": 0
+  },
+  "error": null
+}

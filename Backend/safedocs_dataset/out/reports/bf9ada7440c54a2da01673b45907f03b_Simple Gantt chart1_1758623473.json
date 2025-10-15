@@ -1,0 +1,50 @@
+{
+  "file_name": "bf9ada7440c54a2da01673b45907f03b_Simple Gantt chart1.pdf",
+  "file_type": "pdf",
+  "original": {
+    "file_name": "bf9ada7440c54a2da01673b45907f03b_Simple Gantt chart1.pdf",
+    "sha256": "19ec...d809",
+    "size_bytes": 173210,
+    "pages": 0,
+    "uploaded_ago": "just now"
+  },
+  "security_findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "scores": {
+    "probability": 0.15,
+    "threat_score_10": 1.5,
+    "severity": "low",
+    "signals": {
+      "dl": 0.3767,
+      "lgbm": 0.0,
+      "tree": 0.0906,
+      "rules": 0.0
+    }
+  },
+  "sanitization": {
+    "status": "Clean",
+    "sanitized_file_name": "bf9ada7440c54a2da01673b45907f03b_Simple Gantt chart1_clean.pdf",
+    "sanitized_url": "/sanitized/bf9ada7440c54a2da01673b45907f03b_Simple Gantt chart1_clean.pdf",
+    "sha256": "a7d4...c43b",
+    "size_bytes": 116706,
+    "pages": 0,
+    "notes": [
+      "All malicious content removed",
+      "Document integrity maintained",
+      "Safe for sharing and opening"
+    ],
+    "safety_score_10": 9.6
+  },
+  "metadata": {
+    "mime": "application/pdf",
+    "pages": 0,
+    "pdf_has_javascript": false
+  },
+  "error": null
+}

@@ -1,0 +1,50 @@
+{
+  "file_name": "aaa1fee8e7ca4bb399037927f097d8a0_test.pdf",
+  "file_type": "pdf",
+  "original": {
+    "file_name": "aaa1fee8e7ca4bb399037927f097d8a0_test.pdf",
+    "sha256": "0402...f1b9",
+    "size_bytes": 1170438,
+    "pages": 0,
+    "uploaded_ago": "just now"
+  },
+  "security_findings": [
+    {
+      "threat_type": "No active threats",
+      "severity": "low",
+      "indicator": "No dangerous constructs found",
+      "action_taken": "N/A"
+    }
+  ],
+  "scores": {
+    "probability": 0.15,
+    "threat_score_10": 1.5,
+    "severity": "low",
+    "signals": {
+      "dl": 0.3767,
+      "lgbm": 0.0,
+      "tree": 0.0906,
+      "rules": 0.0
+    }
+  },
+  "sanitization": {
+    "status": "Clean",
+    "sanitized_file_name": "aaa1fee8e7ca4bb399037927f097d8a0_test_clean.pdf",
+    "sanitized_url": "/sanitized/aaa1fee8e7ca4bb399037927f097d8a0_test_clean.pdf",
+    "sha256": "4c90...0bb6",
+    "size_bytes": 1170438,
+    "pages": 0,
+    "notes": [
+      "All malicious content removed",
+      "Document integrity maintained",
+      "Safe for sharing and opening"
+    ],
+    "safety_score_10": 9.6
+  },
+  "metadata": {
+    "mime": "application/pdf",
+    "pages": 0,
+    "pdf_has_javascript": false
+  },
+  "error": null
+}
